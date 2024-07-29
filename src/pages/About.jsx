@@ -104,7 +104,7 @@ const About = () => {
 
             {/* New Experience Detail */}
             <VerticalTimelineElement
-              date="Month Year - Month Year"
+              date="June 2024 - July 2024"
               iconStyle={{ background: "white" }}  // Replace with actual color or remove
               icon={
                 <div className='flex justify-center items-center w-full h-full rounded-full overflow-hidden'>
@@ -137,12 +137,17 @@ const About = () => {
               <ul className='my-5 list-disc ml-5 space-y-2'>
                 <li className='text-black-500/50 font-normal pl-1 text-sm'>
                   Developed, tested, and maintained SQL databases and applications.
-                  Assisted in database design and implementation, ensuring data integrity and optimization.
-                  Wrote complex SQL queries and stored procedures to support application development.
                   Collaborated with cross-functional teams to integrate database solutions with front-end applications.
                 </li>
                 <li className='text-black-500/50 font-normal pl-1 text-sm'>
-                  Another point about the new role.
+                Assisted in database design and implementation, ensuring data integrity and optimization.
+                </li>
+                <li className='text-black-500/50 font-normal pl-1 text-sm'>
+                Wrote complex SQL queries and stored procedures to support application development.
+                </li>
+                <li className='text-black-500/50 font-normal pl-1 text-sm'>
+                  
+                  Collaborated with cross-functional teams to integrate database solutions with front-end applications.
                 </li>
               </ul>
             </VerticalTimelineElement>
